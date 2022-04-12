@@ -1,0 +1,74 @@
+.body-main {
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.options {
+	display: flex;
+	align-items: center;
+	gap: 28px;
+}
+
+.options .play {
+	width: 56px;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1ed760;
+	border-radius: 50%;
+}
+
+.options .play:hover {
+	background-color: #1fdf64;
+	transform: scale(1.045);
+}
+
+.options .dots-svg {
+	color: #b3b3b3;
+	fill: currentColor;
+}
+
+.options .dots-svg:hover {
+	color: white;
+	fill: currentColor;
+}
+
+.line {
+	color: #a7a7a7;
+	margin-top: 20px;
+	margin-bottom: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 0.45;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.line .sec-line {
+	flex: 0.59;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.line .title {
+	flex: 0.2;
+	justify-self: left;
+}
+
+.body-hr {
+	width: 96%;
+}
+
+.clock-svg {
+	color: #a7a7a7;
+	fill: currentColor;
+}
+
+.album {
+	width: 120px;
+}
